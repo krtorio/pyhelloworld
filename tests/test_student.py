@@ -1,5 +1,5 @@
 import pytest
-from src.student import Student
+from student import Student
 
 def test_get_student():
 	student = Student('Karlo',37)
