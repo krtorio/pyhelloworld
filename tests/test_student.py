@@ -1,4 +1,5 @@
-from student import Student
+import pytest
+from src.student import Student
 
 def test_get_student():
 	student = Student('Karlo',37)
